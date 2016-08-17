@@ -21,6 +21,7 @@ body{
     left: 0%;
     background-color:black;
     z-index: 5;
+    font: 'Open Sans';
 }
 .bottom{
     position: absolute;
@@ -29,6 +30,7 @@ body{
     bottom: -2000px;
     background-color: white;
     left: 0%;
+    font: 'Open Sans';
 }
 #link{
     position: absolute;
@@ -138,4 +140,7 @@ body{
 }
 .NSGB:hover{
     cursor: pointer;
+}
+*{
+    font: 'Open Sans';
 }
