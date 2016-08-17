@@ -1,0 +1,141 @@
+body{
+  height: 100%;
+  background: url('../images/pebble-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-attachment: fixed;
+  font: 300 1.5em/1.38 'Open Sans';
+  color: rgb(255, 255, 255);
+  position: static;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color:black;
+    z-index: 5;
+}
+.bottom{
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    bottom: -2000px;
+    background-color: white;
+    left: 0%;
+}
+#link{
+    position: absolute;
+    color: white;
+    font: 12px;
+}
+#link:hover{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+}
+.spam1{
+    right: 3%;
+    top: 20%;
+}
+#div1{
+    position: absolute;
+}
+.division1{
+    right: 18%;
+    top: -10px;
+}
+.adminbox{
+    right: 21%;
+    top: 20%;
+}
+.division2{
+    top: -10px;
+    right: 38%;
+}
+.ship-box{
+    right: 40%;
+    top: 20%;
+}
+.division3{
+    top: -10px;
+    right: 62%;
+}
+.rulesbox{
+    right: 65%;
+    top: 20%;
+}
+.message-front{
+    font-size: 72px;
+    position: absolute;
+    top: 20%;
+    left: 31%;
+}
+.sign-up{
+  display: block;
+  position: absolute;
+  width: 29.75%;
+  height: 64px;
+  top: 55%;
+  left: 35%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 100px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.sign-up:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.rules-2{
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+.grey1{
+    background-color: rgb(192, 192, 192);
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    top: 40%;
+}
+.howspam{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+}
+.nickname{
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+.blue-bot{
+    position: absolute;
+    background-color: rgb(18,165,244);
+    height: 16.5%;
+    width: 100%;
+    bottom: -250px;
+}
+.call{
+    color: black;
+}
+.NSGB{
+    position: absolute;
+    left: 2%;
+    top: -5px;
+    color: white;
+}
+.NSGB:hover{
+    cursor: pointer;
+}
