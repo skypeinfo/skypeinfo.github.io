@@ -74,7 +74,7 @@ body{
 .message-front{
     font-size: 72px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 31%;
 }
 .sign-up{
@@ -82,7 +82,7 @@ body{
   position: absolute;
   width: 29.75%;
   height: 64px;
-  top: 55%;
+  top: 65%;
   left: 35%;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 100px;
