@@ -141,6 +141,20 @@ body{
 .NSGB:hover{
     cursor: pointer;
 }
+.error{
+    visibility: hidden;
+    font-size: 24px;
+}
 *{
-    font: 'Open Sans';
+    font-family: sans-serif;
+}
+@media screen and (max-width: 1079px) {
+    *{
+        visibility: hidden;
+    }
+    .error{
+        visibility: visible;
+        position: absolute;
+        top: 0%;
+    }
 }
