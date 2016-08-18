@@ -148,7 +148,7 @@ body{
 *{
     font-family: sans-serif;
 }
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1300px){
     .bottom{
         position: absolute;
         bottom: -3000px;
