@@ -7,3 +7,13 @@ $(document).scroll(function () {
         }, 5500);
     }
 });
+
+//MobileDetect
+function screenClass() {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        alert("Website broken on mobile, sorry.");
+    }
+}
+
+// Fire.
+screenClass();
