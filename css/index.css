@@ -32,19 +32,19 @@ body{
     left: 0%;
     font: 'Open Sans';
 }
-#link{
+.link{
     position: absolute;
     color: white;
     font: 12px;
 }
-#link:hover{
+.link:hover{
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 .spam1{
     right: 3%;
     top: 20%;
 }
-#div1{
+.absolute{
     position: absolute;
 }
 .division1{
@@ -168,49 +168,5 @@ body{
     }#link{
         position: absolute;
         top: 30%;
-    }
-}
-@media screen and (min-width: 1700px){
-    .bottom{
-        position: absolute;
-        bottom: -4000px;
-    }.message-front{
-        position: absolute;
-        left: 35%;
-        top: 30%;
-    }
-}
-@media screen and (max-width: 1079px) {
-    *{
-        visibility: hidden;
-    }
-    .error{     
-        visibility: visible;
-        position: absolute;
-        top: 0%;
-    }
-        .banner{
-            visibility: visible;
-            position: fixed;
-            top: 0%;
-            left: 0%;
-    }.NSGB{
-        position: absolute;
-        visibility: visible;
-        font-size: 20px;
-        top: 5%;
-    }#div1{
-        visibility: visible;
-        font-size: 12px;
-        top: 25%;
-    }#link{
-        visibility: visible;
-        font-size: 12px;
-        top: 40%;
-    }.message-front{
-        position: absolute;
-        visibility: visible;
-        font-size: 24px;
-    }
     }
 }
