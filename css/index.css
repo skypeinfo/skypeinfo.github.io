@@ -74,7 +74,7 @@ body{
 .message-front{
     font-size: 72px;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 31%;
 }
 .sign-up{
@@ -154,7 +154,7 @@ body{
         bottom: -3000px;
     }.message-front{
         position: absolute;
-        left: 33%;
+        left: 30%;
         top: 30%;
     }.sign-up{
         position: absolute;
