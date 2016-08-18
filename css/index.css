@@ -148,13 +148,43 @@ body{
 *{
     font-family: sans-serif;
 }
+@media screen and (min-width: 1300px){
+    .bottom{
+        position: absolute;
+        bottom: 300px;
+    }
+}
 @media screen and (max-width: 1079px) {
     *{
         visibility: hidden;
     }
-    .error{
+    .error{     
         visibility: visible;
         position: absolute;
         top: 0%;
+    }
+        .banner{
+            visibility: visible;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+    }.NSGB{
+        position: absolute;
+        visibility: visible;
+        font-size: 20px;
+        top: 5%;
+    }#div1{
+        visibility: visible;
+        font-size: 12px;
+        top: 25%;
+    }#link{
+        visibility: visible;
+        font-size: 12px;
+        top: 40%;
+    }.message-front{
+        position: absolute;
+        visibility: visible;
+        font-size: 24px;
+    }
     }
 }
