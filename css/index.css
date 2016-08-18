@@ -154,13 +154,12 @@ body{
         bottom: -3000px;
     }.message-front{
         position: absolute;
-        left: 38%;
+        left: 33%;
         top: 30%;
     }.sign-up{
         position: absolute;
-        left: 36%;
-        top: 45%;
-        height: 150px;
+        left: 35%;
+        top: 55%;
     }.banner{
         height: 100px;
     }#div1{
@@ -171,10 +170,14 @@ body{
         top: 30%;
     }
 }
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 1700px){
     .bottom{
         position: absolute;
         bottom: -4000px;
+    }.message-front{
+        position: absolute;
+        left: 35%;
+        top: 30%;
     }
 }
 @media screen and (max-width: 1079px) {
