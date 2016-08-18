@@ -65,10 +65,10 @@ body{
 }
 .division3{
     top: -10px;
-    right: 62%;
+    right: 50%;
 }
 .rulesbox{
-    right: 65%;
+    right: 55%;
     top: 20%;
 }
 .message-front{
@@ -148,10 +148,33 @@ body{
 *{
     font-family: sans-serif;
 }
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1500px){
     .bottom{
         position: absolute;
-        bottom: 300px;
+        bottom: -3000px;
+    }.message-front{
+        position: absolute;
+        left: 38%;
+        top: 30%;
+    }.sign-up{
+        position: absolute;
+        left: 36%;
+        top: 45%;
+        height: 150px;
+    }.banner{
+        height: 100px;
+    }#div1{
+        position: absolute;
+        top: 10%;
+    }#link{
+        position: absolute;
+        top: 30%;
+    }
+}
+@media screen and (min-width: 1800px){
+    .bottom{
+        position: absolute;
+        bottom: -4000px;
     }
 }
 @media screen and (max-width: 1079px) {
