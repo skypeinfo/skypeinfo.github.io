@@ -32,19 +32,19 @@ body{
     left: 0%;
     font: 'Open Sans';
 }
-#link{
+.link{
     position: absolute;
     color: white;
     font: 12px;
 }
-#link:hover{
+.link:hover{
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }
 .spam1{
     right: 3%;
     top: 20%;
 }
-#div1{
+.absolute{
     position: absolute;
 }
 .division1{
